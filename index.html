@@ -50,9 +50,9 @@
       var mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent));
       var buildUrl = "Build";
       var config = {
-        dataUrl: buildUrl + "/67c6822e06baa34f63762cbec138c9b9.data.unityweb",
+        dataUrl: buildUrl + "/61ca24a7d6e42bb38dfd399e218609de.data.unityweb",
         frameworkUrl: buildUrl + "/2215476f7262ba540f131e6327f96e39.framework.js.unityweb",
-        codeUrl: buildUrl + "/3402d1489b5b65ccb385f21299b98c9d.wasm.unityweb",
+        codeUrl: buildUrl + "/65ae906fba6fe715214f2bb65dcecaef.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Chunky Cat Farms",
@@ -62,7 +62,7 @@
         showBanner: function (msg, type) { if (type === "error") document.getElementById("note").textContent = msg; },
       };
       var script = document.createElement("script");
-      script.src = buildUrl + "/0558587638af7f37c0bfd5bef0c4dc13.loader.js";
+      script.src = buildUrl + "/d994a75a2d30fdf261c77f9cada30737.loader.js";
       script.onload = function () {
         createUnityInstance(document.getElementById("unity-canvas"), config, function (progress) {
           document.getElementById("fill").style.width = (100 * progress) + "%";
