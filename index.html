@@ -50,7 +50,7 @@
       var mobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(navigator.userAgent));
       var buildUrl = "Build";
       var config = {
-        dataUrl: buildUrl + "/6d54fced3d18e79c9d6acd8d854eeb9f.data.unityweb",
+        dataUrl: buildUrl + "/9c420def080d2363c5ec4cd3c672cb32.data.unityweb",
         frameworkUrl: buildUrl + "/2215476f7262ba540f131e6327f96e39.framework.js.unityweb",
         codeUrl: buildUrl + "/fc100bce0e66eca4ea14e94107aabdd0.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
@@ -62,7 +62,7 @@
         showBanner: function (msg, type) { if (type === "error") document.getElementById("note").textContent = msg; },
       };
       var script = document.createElement("script");
-      script.src = buildUrl + "/d25ecc8ee8ac6cc50a5898847c508fb0.loader.js";
+      script.src = buildUrl + "/2b5c439e6294667e13344e5e5d674b57.loader.js";
       script.onload = function () {
         createUnityInstance(document.getElementById("unity-canvas"), config, function (progress) {
           document.getElementById("fill").style.width = (100 * progress) + "%";
