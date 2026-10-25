@@ -1,0 +1,14 @@
+{
+  "name": "Chunky Cat Farms",
+  "short_name": "Chunky Cat Farms",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#fbf3dc",
+  "theme_color": "#7cc35a",
+  "description": "A cosy farm run by cats.",
+  "icons": [
+    { "src": "TemplateData/icon_192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "TemplateData/icon_512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
